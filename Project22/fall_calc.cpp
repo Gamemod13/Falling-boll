@@ -1,4 +1,6 @@
+#include<cmath>
 #include"myConstant.h"
+
 
 double fallCalc(double heigh, int sec) {
 	double res(0);
@@ -8,7 +10,7 @@ double fallCalc(double heigh, int sec) {
 		if (res < 0) {
 			return 0;
 		}
-		return res;
+		int i = static_cast<int>(res);
+		return res = round(res*10) / 10;
 	}
-	
 }
