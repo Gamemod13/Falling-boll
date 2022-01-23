@@ -139,10 +139,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="cout_fall_calc.cpp" />
     <ClCompile Include="fall_calc.cpp" />
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="cout_fall_calc.h" />
     <ClInclude Include="fall_calc.h" />
     <ClInclude Include="myConstant.h" />
   </ItemGroup>

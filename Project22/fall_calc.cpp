@@ -1,10 +1,14 @@
 #include"myConstant.h"
 
-float fallCalc(double heigh) {
-	for (int i = 0; i < 6; i++) {
-		float res = C_AccOfGrav * i * i;
-		if (res >= 0) {
-			return res;
+double fallCalc(double heigh, int sec) {
+	double res(0);
+	while (res >= 0)
+	{
+		res = heigh - (C_AccOfGrav * sec * sec);
+		if (res < 0) {
+			return 0;
 		}
+		return res;
 	}
+	
 }
