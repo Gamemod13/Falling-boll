@@ -1,11 +1,11 @@
-#include<iostream>
+ï»¿#include<iostream>
 
 void cout_fall(double res, int sec) {
 	if (res <= 0) {
-		std::cout << "Øàðèê íà " << sec << "-é ñåêóíäå íàõîäèòñÿ íà çåìëå." << std::endl;
+		std::cout << "Ð¨Ð°Ñ€Ð¸Ðº Ð½Ð° " << sec << "-Ð¹ ÑÐµÐºÑƒÐ½Ð´Ðµ Ð½Ð°Ñ…Ð¾Ð´Ð¸Ñ‚ÑÑ Ð½Ð° Ð·ÐµÐ¼Ð»Ðµ." << std::endl;
 	}
 	else
 	{
-		std::cout << "Øàðèê íà " << sec << "-é ñåêóíäå íàõîäèòñÿ íà âûñîòå: " << res << std::endl;
+		std::cout << "Ð¨Ð°Ñ€Ð¸Ðº Ð½Ð° " << sec << "-Ð¹ ÑÐµÐºÑƒÐ½Ð´Ðµ Ð½Ð°Ñ…Ð¾Ð´Ð¸Ñ‚ÑÑ Ð½Ð° Ð²Ñ‹ÑÐ¾Ñ‚Ðµ: " << res << std::endl;
 	}
 }
